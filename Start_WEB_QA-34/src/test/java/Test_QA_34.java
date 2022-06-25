@@ -199,7 +199,7 @@ public class Test_QA_34 {
 
     @Test
     public void logOut() {
-        WebElement avatar = wd.findElement(By.cssSelector("[data-test-id = 'header-member-menu-button'"));
+        WebElement avatar = wd.findElement(By.cssSelector("[data-test-id = 'header-member-menu-button']"));
         //xp WebElement avatarx = wd.findElement(By.xpath("//*[@data-test-id = 'header-member-menu-button']"));
         avatar.click();
         WebElement logOut1 = wd.findElement(By.cssSelector("[data-test-id = 'header-member-menu-logout']"));
